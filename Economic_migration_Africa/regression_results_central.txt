@@ -1,0 +1,34 @@
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:      m_balance_percent   R-squared:                        0.5227
+Estimator:                   PanelOLS   R-squared (Between):              0.7596
+No. Observations:                 263   R-squared (Within):              -0.0210
+Date:                Fri, Nov 08 2024   R-squared (Overall):              0.5227
+Time:                        00:27:29   Log-likelihood                   -185.51
+Cov. Estimator:            Unadjusted                                           
+                                        F-statistic:                      30.907
+Entities:                          14   P-value                           0.0000
+Avg Obs:                       18.786   Distribution:                   F(9,254)
+Min Obs:                       13.000                                           
+Max Obs:                       20.000   F-statistic (robust):             30.907
+                                        P-value                           0.0000
+Time periods:                      20   Distribution:                   F(9,254)
+Avg Obs:                       13.150                                           
+Min Obs:                      10.0000                                           
+Max Obs:                       14.000                                           
+                                                                                
+                                  Parameter Estimates                                   
+========================================================================================
+                      Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------
+gdp_per_capita           0.0001  1.782e-05     7.3693     0.0000   9.623e-05      0.0002
+fdi_per_capita        1.785e-05  2.513e-05     0.7101     0.4783  -3.165e-05   6.735e-05
+hdi_norm                -0.0033     0.0030    -1.0923     0.2757     -0.0093      0.0027
+tax_burden               0.0005     0.0037     0.1356     0.8922     -0.0067      0.0077
+government_spending      0.0058     0.0019     3.0800     0.0023      0.0021      0.0095
+trade_freedom           -0.0135     0.0040    -3.4161     0.0007     -0.0213     -0.0057
+gov_effectiveness        0.0109     0.0028     3.8401     0.0002      0.0053      0.0165
+pstab                   -0.0017     0.0032    -0.5349     0.5932     -0.0079      0.0045
+fatalities_per_10000    -0.1693     0.0290    -5.8471     0.0000     -0.2263     -0.1123
+========================================================================================
+
